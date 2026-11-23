@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHADIN TOPUP</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;background:#080d1b;color:white;
+ font-family:Arial,sans-serif;text-align:center;
+}
+header{padding:25px 10px;background:#111c35}
+h1{color:#ffc400}
+.hero{padding:35px 15px}
+.hero h2{color:#48d8ff}
+.card{
+ background:#172440;margin:15px auto;
+ padding:20px;border-radius:15px;
+ max-width:380px;
+}
+input,select{
+ width:100%;padding:13px;margin:8px 0;
+ border:0;border-radius:8px;
+}
+button{
+ background:#ffc400;color:#111;
+ border:0;padding:14px;border-radius:9px;
+ font-weight:bold;width:100%;cursor:pointer;
+}
+footer{padding:25px;color:#bbb}
+</style>
+</head>
+<body>
+<header>
+<h1>🔥 SHADIN TOPUP 🔥</h1>
+<p>Your Gaming Partner!</p>
+</header>
+
+<section class="hero">
+<h2>💎 FREE FIRE DIAMONDS 💎</h2>
+<p>আপনার বিশ্বস্ত Diamond Top-Up Shop</p>
+</section>
+
+<div class="card">
+<h2>🛒 Place Your Order</h2>
+<form id="orderForm">
+<input id="player" placeholder="Free Fire Player ID" required>
+<select id="package" required>
+<option value="">Diamond Package নির্বাচন করুন</option>
+<option>100 Diamonds</option>
+<option>210 Diamonds</option>
+<option>530 Diamonds</option>
+<option>1080 Diamonds</option>
+</select>
+<input id="phone" placeholder="আপনার WhatsApp নম্বর" required>
+<button type="submit">অর্ডার করুন</button>
+</form>
+</div>
+
+<div class="card">
+<h2>🔒 Safe Service</h2>
+<p>Fast Top-Up | Trusted Service</p>
+<p>পেমেন্ট যাচাইয়ের পর অর্ডার সম্পন্ন হবে।</p>
+</div>
+
+<footer>
+<p>SHADIN TOPUP © 2026</p>
+<p>Contact: WhatsApp</p>
+</footer>
+
+<script>
+document.getElementById("orderForm")
+.addEventListener("submit",function(e){
+ e.preventDefault();
+ alert("আপনার অর্ডার প্রস্তুত! WhatsApp নম্বর সেট করার পর অর্ডার পাঠানো যাবে।");
+});
+</script>
+</body>
+</html>
